@@ -53,6 +53,13 @@ body {
     color: #010100;
 }
 
+.menu-btn {
+    display: none;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -750,7 +757,7 @@ section {
     box-shadow: 0 0 20px #f2f2f2;
 }
 
-.last-text p{
+.last-text p {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -759,12 +766,13 @@ section {
     margin-top: 30px;
 }
 
-.top{
+.top {
     position: fixed;
     bottom: 2.1rem;
     right: 2.1rem;
 }
-.top i{
+
+.top i {
     color: #f2f2f2;
     background: #010100;
     font-size: 20px;
@@ -772,25 +780,6 @@ section {
     border-radius: 0.5rem;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
@@ -881,7 +870,6 @@ section {
     100% {
         stroke-dashoffset: 75;
     }
-
 }
 
 /* ================= RESPONSIVE DESIGN ================= */
@@ -891,12 +879,15 @@ section {
     .home-content h1 {
         font-size: 64px;
     }
+
     .home-content h3 {
         font-size: 36px;
     }
+
     .about-text h2 {
         font-size: 64px;
     }
+
     .contact-text h2 {
         font-size: 80px;
     }
@@ -966,14 +957,31 @@ section {
         font-size: 20px;
     }
 
-    .navbar {
-        margin-top: 10px;
+     .menu-btn {
+        display: block;
     }
 
-    .navbar a {
-        font-size: 18px;
-        margin: 10px 0;
+
+  .navbar {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+     .navbar a {
         display: block;
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .navbar.active {
+        display: flex;
     }
 
     .home-content h1 {
