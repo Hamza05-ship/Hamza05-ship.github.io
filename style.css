@@ -36,6 +36,11 @@ body {
 
 }
 
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
 .navbar a {
     display: inline-block;
     font-size: 25px;
@@ -780,6 +785,7 @@ section {
     border-radius: 0.5rem;
 
 }
+
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
@@ -957,13 +963,19 @@ section {
         font-size: 20px;
     }
 
-     .menu-btn {
+    .menu-btn {
         display: block;
+        /* hamburger visible */
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 1001;
     }
 
 
-  .navbar {
+    .navbar {
         display: none;
+        /* navbar hidden by default */
         flex-direction: column;
         background: #333;
         position: absolute;
@@ -972,9 +984,10 @@ section {
         width: 200px;
         padding: 20px;
         border-radius: 10px;
+        z-index: 1000;
     }
 
-     .navbar a {
+    .navbar a {
         display: block;
         margin: 10px 0;
         color: #fff;
@@ -982,6 +995,7 @@ section {
 
     .navbar.active {
         display: flex;
+        /* toggle hone par show */
     }
 
     .home-content h1 {
