@@ -23,6 +23,8 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     // success message
     alert("Thank you, " + name + "! Your message has been submitted.");
+
+    this.reset();
     
 });
 
@@ -32,3 +34,4 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     menuBtn.addEventListener("click", () => {
         navbar.classList.toggle("active");
     });
+
