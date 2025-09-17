@@ -7,21 +7,18 @@ var typed = new Typed(".text", {
 });
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
-    event.preventDefault(); // page reload hone se rokta hai
+    event.preventDefault(); 
 
-    // form ke values uthao
     const name = this.name.value;
     const email = this.email.value;
     const subject = this.subject.value;
     const message = this.message.value;
 
-    // console par show karne ke liye (testing)
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Subject:", subject);
     console.log("Message:", message);
 
-    // success message
     alert("Thank you, " + name + "! Your message has been submitted.");
 
     this.reset();
@@ -34,3 +31,4 @@ const navbar = document.getElementById("navbar");
 menuBtn.addEventListener("click", () => {
     navbar.classList.toggle("active");
 });
+
