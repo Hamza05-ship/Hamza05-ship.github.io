@@ -1,12 +1,12 @@
 var typed = new Typed(".text", {
-    strings: ["Frontend Developer", "Wordpress Developer"],
+    strings: ["Frontend Developer", "Wordpress Developer" , "PHP Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 });
 
-document.getElementById("contactForm").addEventListener("submit", function(event) {
+document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault(); // page reload hone se rokta hai
 
     // form ke values uthao
@@ -25,13 +25,12 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     alert("Thank you, " + name + "! Your message has been submitted.");
 
     this.reset();
-    
+
 });
 
- const menuBtn = document.getElementById("menu-btn");
-    const navbar = document.getElementById("navbar");
+const menuBtn = document.getElementById("menu-btn");
+const navbar = document.getElementById("navbar");
 
-    menuBtn.addEventListener("click", () => {
-        navbar.classList.toggle("active");
-    });
-
+menuBtn.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+});
