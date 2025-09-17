@@ -965,11 +965,6 @@ section {
 
     .menu-btn {
         display: block;
-        /* hamburger visible */
-        font-size: 28px;
-        color: #fff;
-        cursor: pointer;
-        z-index: 1001;
     }
 
 
@@ -1093,3 +1088,4 @@ section {
         padding: 15px;
     }
 }
+
