@@ -12,16 +12,12 @@ body {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: #B29E7B;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    padding: 10px 20px;
+    color: white;
+    background: #B29E7B;
 }
 
 .logo {
@@ -954,7 +950,7 @@ section {
 /* Small screens (mobiles, < 768px) */
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         padding: 10px 20px;
     }
@@ -975,11 +971,9 @@ section {
         background: #333;
         position: absolute;
         top: 60px;
-        right: 20px;
+        right: 0px;
         width: 200px;
-        padding: 20px;
-        border-radius: 10px;
-        z-index: 1000;
+        padding: 10px;
     }
 
     .navbar a {
@@ -1088,4 +1082,5 @@ section {
         padding: 15px;
     }
 }
+
 
