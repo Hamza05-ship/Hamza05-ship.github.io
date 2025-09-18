@@ -13,9 +13,11 @@
 </head>
 
 <body>
+    <!-- header design -->
+
     <header class="header">
         <a href="#" class="logo">My Portfolio</a>
-         <div class="menu-btn" id="menu-icon">
+        <div class="menu-btn" id="menu-icon">
             <i class="fa-solid fa-bars"></i>
         </div>
 
@@ -27,26 +29,30 @@
             <a href="#contact" style="--i:5">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello It's Me</h3>
             <h1>Hamza Mehmood</h1>
             <h3>And I'm a <span class="text"></span></h3>
-            <p> Frontend developer with hands-on experience in building responsive,<br> mobile-friendly, and
-                visually appealing websites. <br> I specialize in HTML, CSS, JavaScript, and Bootstrap, and am
+            <p> Frontend developer with hands-on experience <br>in building responsive, mobile-friendly,<br> and
+                visually appealing websites. <br> I specialize in HTML, CSS, JavaScript, and Bootstrap,<br> and am
                 continuously
                 expanding <br> my skills into modern frameworks like php laravel. <br> I enjoy transforming ideas into
-                reality
-                using clean and efficient code. <br>My goal is to build impactful web interfaces that provide excellent
+                reality <br>
+                using clean and efficient code. <br>My goal is to build impactful web interfaces <br> that provide
+                excellent
                 user
                 experiences.
                 <br>📬 Let’s Connect:
                 I’m always excited to collaborate on innovative projects <br>or chat about the latest in web
-                development.
-                Feel free to reach out here or email me at <a href="https://mail.google.com" target="_blank"
+                development. <br>
+                Feel free to reach out here or email me at <br> <a href="https://mail.google.com" target="_blank"
                     style="color: blue; text-decoration: none;">rajpoothamza336@gmail.com</a>
             </p>
-            <div class="home-sci">
+            <div class="social-media">
                 <a href="https://www.facebook.com/hamza.mehmood.798877" target="_blank" style="--i:6"><i
                         class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/_mehmood_0705" target="_blank" style="--i:7"><i
@@ -58,18 +64,25 @@
                 <a href="https://twitter.com/hamzarajpoot50" target="_blank" style="--i:10"><i
                         class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <a href="#" class="btn-box">More About Me</a>
+            <a href="#" class="btn">More About Me</a>
         </div>
 
+
+        <div class="home-img">
+            <img src="Home.png" alt="">
+        </div>
     </section>
+
+    <!-- about section design -->
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="Blue & white round photo Instagram post.jpg" alt="#">
+            <img src="Blue & white round photo Instagram post.jpg" alt="">
         </div>
-        <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Frontend Developer</h4>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
             <p> Frontend developer with hands-on experience in building responsive,<br> mobile-friendly, and
                 visually appealing websites. <br> I specialize in HTML, CSS, JavaScript, and Bootstrap, and am
                 continuously
@@ -79,58 +92,68 @@
                 user
                 experiences.
             </p>
-            <a href="#" class="btn-box">More About ME</a>
+            <a href="#" class="btn">More About ME</a>
         </div>
     </section>
 
-    <section>
-        <div class="services" id="services">
-            <div class="container">
-                <h1 class="sub-title">My <span>Services</span></h1>
-                <div class="services-list">
-                    <div>
-                        <i class="fa-solid fa-code" style="color: #63E6BE;"></i>
-                        <h2>UI/Ux Design</h2>
-                        <p>"I design digital experiences that are not only visually appealing but also easy to use. My
-                            focus is on understanding user needs and turning them into clean, functional, and modern
-                            interfaces. From wireframes to final designs, I ensure every detail creates a smooth journey
-                            for users while meeting business goals."</p>
-                        <a href="#" class="read">Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-brands fa-html5" style="color: #63E6BE;"></i>
-                        <i class="fa-brands fa-css3-alt" style="color: #63E6BE;"></i>
-                        <i class="fa-brands fa-js" style="color: #63E6BE;"></i>
-                        <h2>Frontend Developer</h2>
-                        <p> Frontend developer with hands-on experience in building responsive,mobile-friendly, and
-                            visually appealing websites. I specialize in HTML, CSS, JavaScript, and Bootstrap, and
-                            am
-                            continuously
-                            expanding my skills into modern frameworks like php laravel.I enjoy transforming
-                            ideas into
-                            reality
-                            using clean and efficient code.My goal is to build impactful web interfaces that
-                            provide excellent
-                            user
-                            experiences.
-                        </p>
-                        <a href="#" class="read">Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-laptop-code" style="color: #63E6BE;"></i>
-                        <h2>Wordpress Developer</h2>
-                        <p>"I create powerful and customized WordPress websites that are fast, secure, and easy to
-                            manage. Whether it’s a personal blog, business website, or e-commerce store, I build
-                            tailored solutions with clean designs and responsive layouts. My goal is to deliver websites
-                            that are user-friendly, SEO-optimized, and aligned with your brand’s vision."</p>
-                        <a href="#" class="read">Learn More</a>
-                    </div>
-                </div>
-            </div>
+    <!-- services section design -->
+
+    <div class="services" id="services">
+        <h2 class="heading"> My<span> Services</span></h2>
+    </div>
+
+    <div class="services-container">
+
+
+        <div class="services-box">
+            <i class="fa-solid fa-code" style="color: #63E6BE;"></i>
+            <h2>UI/Ux Design</h2>
+            <p>"I design digital experiences that are not only visually appealing but also easy to use. My
+                focus is on understanding user needs and turning them into clean, functional, and modern
+                interfaces. From wireframes to final designs, I ensure every detail creates a smooth journey
+                for users while meeting business goals."</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
-    </section>
-    <h1 class="sub-title">My <span>Skills</span></h1>
-    <section>
+
+
+        <div class="services-box">
+            <i class="fa-brands fa-html5" style="color: #63E6BE;"></i>
+            <i class="fa-brands fa-css3-alt" style="color: #63E6BE;"></i>
+            <i class="fa-brands fa-js" style="color: #63E6BE;"></i>
+            <h2>Frontend Developer</h2>
+            <p> Frontend developer with hands-on experience in building responsive,mobile-friendly, and
+                visually appealing websites. I specialize in HTML, CSS, JavaScript, and Bootstrap, and
+                am
+                continuously
+                expanding my skills into modern frameworks like php laravel.I enjoy transforming
+                ideas into
+                reality
+                using clean and efficient code.My goal is to build impactful web interfaces that
+                provide excellent
+                user
+                experiences.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+
+        <div class="services-box">
+            <i class="fa-solid fa-laptop-code" style="color: #63E6BE;"></i>
+            <h2>Wordpress Developer</h2>
+            <p>"I create powerful and customized WordPress websites that are fast, secure, and easy to
+                manage. Whether it’s a personal blog, business website, or e-commerce store, I build
+                tailored solutions with clean designs and responsive layouts. My goal is to deliver websites
+                that are user-friendly, SEO-optimized, and aligned with your brand’s vision."</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+    </div>
+
+    <!-- progress line -->
+
+    <h2 class="heading3"> My<span>Skills</span></h2>
+
+    <section class="section10">
         <div class="container1" id="skills">
             <h1 class="heading1">Technical Skills</h1>
             <div class="Technical-bars">
@@ -208,6 +231,9 @@
         </div>
     </section>
 
+
+    <!-- portfolio section design -->
+
     <section>
         <div class="portfolio" id="portfolio">
             <div class="main-content" id="project">
@@ -263,7 +289,8 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <!-- contact section design -->
+   <section class="contact" id="contact">
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4>Let's Work Together</h4>
@@ -304,11 +331,9 @@
         <p>Developed with love by Hamza Mehmood &copy;2025</p>
     </div>
     <a href="#" class="top"><i class="fa-solid fa-circle-up"></i></a>
+
+    <!-- custom js -->
     <script src="main.js"></script>
 </body>
 
-
 </html>
-
-
-
